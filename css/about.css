@@ -1,0 +1,81 @@
+/* ========================================
+   ABOUT
+======================================== */
+
+.about {
+
+   background: transparent;
+
+}
+
+
+/* ========================================
+   ABOUT GRID
+======================================== */
+
+.about-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        1fr 1fr;
+
+    gap: 80px;
+
+}
+
+
+/* ========================================
+   LARGE TEXT
+======================================== */
+
+.about-large {
+
+    font-size: 32px;
+
+    line-height: 1.4;
+
+    color: white;
+
+}
+
+
+/* ========================================
+   DESCRIPTION
+======================================== */
+
+.about-grid p {
+
+    color: #888;
+
+    line-height: 1.8;
+
+    margin-bottom: 20px;
+
+}
+
+
+/* ========================================
+   MOBILE
+======================================== */
+
+@media (max-width: 768px) {
+
+    .about-grid {
+
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+
+    }
+
+
+    .about-large {
+
+        font-size: 24px;
+
+    }
+
+
+    
+}
