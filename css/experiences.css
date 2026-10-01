@@ -1,0 +1,68 @@
+.timeline {
+
+    max-width: 850px;
+
+}
+
+
+.timeline-item {
+
+    display: grid;
+
+    grid-template-columns:
+        180px 1fr;
+
+    padding: 35px 0;
+
+    border-top:
+        1px solid #222;
+
+}
+
+
+.timeline-year {
+
+    color: #7c3aed;
+
+    font-size: 14px;
+
+}
+
+
+.timeline-content h3 {
+
+    font-size: 24px;
+
+}
+
+
+.timeline-content h4 {
+
+    margin:
+        8px 0 15px;
+
+    color: #777;
+
+}
+
+
+.timeline-content p {
+
+    color: #777;
+
+    line-height: 1.7;
+
+}
+
+
+@media (max-width: 600px) {
+
+    .timeline-item {
+
+        grid-template-columns: 1fr;
+
+        gap: 15px;
+
+    }
+
+}
